@@ -1,11 +1,15 @@
 .jumbotron {
-  background-color: #333;
+  background: url('../images/mountains2.jpg');
+  background-size: cover;
+  height: 250px;
+
 }
+
 
 .header_index {
   color: white;
   text-align: center;
-  display: inline-block;
+  //display: inline-block;
 }
 
 .img-circle {
