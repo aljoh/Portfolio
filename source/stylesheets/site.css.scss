@@ -2,10 +2,16 @@
   background: url('../images/mountains2.jpg');
   background-size: cover;
   height: 250px;
-
+}
+.jumbo_portfolio {
+  background: url('../images/code.jpg');
+  background-size: cover;
+  height: 250px;
 }
 
-
+.center_text {
+  text-align:center;
+}
 .header_index {
   color: white;
   text-align: center;
@@ -25,4 +31,5 @@
 .index_small {
   height: 300px;
   width: 355px;
+  border-radius: 10px;
 }
