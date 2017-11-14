@@ -1,1 +1,3 @@
-// This is where it all goes :)
+$('button').click(function(){
+  $('.fizzbuzz').toggle(500);
+});

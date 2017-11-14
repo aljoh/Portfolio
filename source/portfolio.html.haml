@@ -1,23 +1,17 @@
 .container.cont_portfolio
-  .jumbotron.jumbo_portfolio
-  %h1.center_text Projects
+  .jumbotron.jumbo_portfolio.header_index
+    %h1 Projects
   .row.text-center
     .col-sm-4.first_work
       %img.port_small.img-circle{:alt => "Image", :src => "/images/mountains.jpg"}/
-      %p= "Fizzbuzz"
+      %p Fizz
+      %button Fizzbuzz
     .col-sm-4.second_work
       %img.port_small.img-circle{:alt => "Image", :src => "/images/pecker.jpg"}/
       %p BMI-Challenge
     .col-sm-4.third_work
       %img.port_small.img-circle{:alt => "Image", :src => "/images/work.jpg"}/
       %p Cooper-Challenge
-  .row.text-center
-    .col-sm-4.fizzbuzz
-      %h2 Fizz Buzz
-      %p This Project bacon ipsum bacon ham bacon bacon
-    .col-sm-4.second_work
-      %h2 Fizz Buzz
-      %p This Project bacon ipsum bacon ham bacon bacon
-    .col-sm-4.third_work
-      %h2 Fizz Buzz
-      %p This Project bacon ipsum bacon ham bacon bacon
+  .fizzbuzz
+    %h1 Fizz Fizz
+    %p Lorem ipsum bacon bacon ham meat
