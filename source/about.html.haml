@@ -1,2 +1,9 @@
 .container
-  .jumbotron
+  .jumbotron.jumbo_about
+    .header_index
+      %h1 Who am I?
+  .row
+    .col-sm-6.columns
+      %img.index_large{:alt => "Image", :src => "/images/Affe CV bild.jpg"}/
+    .col-sm-6.columns
+      %h3= -data.projects[:me]

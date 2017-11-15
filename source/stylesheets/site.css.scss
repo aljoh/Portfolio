@@ -9,6 +9,13 @@
   height: 250px;
 }
 
+.jumbo_about {
+  background: url('../images/dude.jpg');
+  background-position: 0 -250px;
+  background-size: cover;
+  height: 250px;
+}
+
 .center_text {
   text-align:center;
 }
@@ -33,6 +40,12 @@
 .index_small {
   height: 300px;
   width: 355px;
+  border-radius: 10px;
+}
+
+.index_large {
+  height: 400px;
+  width: 500px;
   border-radius: 10px;
 }
 
