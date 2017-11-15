@@ -3,15 +3,21 @@
   %h1.center_text Projects
   .row.text-center
     .col-sm-4.columns
-      %h3 Fizzbuzz
-      %p= -data.projects[:fizzbuzz]
+      %img.port_small.img_port{:alt => "Image", :src => "/images/ruby.png"}/
+      %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
+      %h3 ATM-Machine
+      %p= -data.projects[:atm]
     .col-sm-4.columns
+      %img.port_small.img_port{:alt => "Image", :src => "/images/Javascript-shield.png"}/
+      %img.port_small.img_port{:alt => "Image", :src => "/images/jasmine.png"}/
       %h3 Cooper Test
       %p= -data.projects[:cooper]
     .col-sm-4.columns
+      %img.port_small.img_port{:alt => "Image", :src => "/images/Javascript-shield.png"}/
+      %img.port_small.img_port{:alt => "Image", :src => "/images/jasmine.png"}/
       %h3 BMI Calculator
       %p= -data.projects[:bmi]
-  .row.text-center
+  -#.row.text-center
     .col-sm-3
       %img.port_small.img_port{:alt => "Image", :src => "/images/ruby.png"}/
     .col-sm-3
