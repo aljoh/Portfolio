@@ -1,3 +1,5 @@
+
+
 .jumbo_index {
   background: url('../images/mountains2.jpg');
   background-size: cover;
@@ -63,16 +65,26 @@
   margin-top: 5px;
 }
 
+.logo {
+  text-align: center;
+  margin-top: 100px;
+}
+
 .projects {
   margin: inherit;
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+}
+
+h3 {
+  margin-top: 0px;
+  line-height: 1.3;
 }

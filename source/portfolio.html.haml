@@ -17,9 +17,11 @@
       %img.port_small.img_port{:alt => "Image", :src => "/images/jasmine.png"}/
       %h3 BMI Calculator
       %p= -data.projects[:bmi]
-  .text-center
-    .h4 Find all my projects and READMEs on my Github Page
-    %img.port_small.github{:alt => "Image", :src => "/images/github.png"}/
+.logo
+  .h4 Find all my projects and READMEs on my Github Page
+  %a{:href => "https://github.com/aljoh"}
+    %img.github{:alt => "Image", :src => "images/github.png"}/
+
   -#.row.text-center
     .col-sm-3
       %img.port_small.img_port{:alt => "Image", :src => "/images/ruby.png"}/
