@@ -1,7 +1,7 @@
 .container
   .jumbotron.jumbo_portfolio
-  %h1.center_text Projects
-  .row.text-center
+    %h1.center_text Projects
+  .row.text-center.projects
     .col-sm-4.columns
       %img.port_small.img_port{:alt => "Image", :src => "/images/ruby.png"}/
       %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
@@ -17,6 +17,9 @@
       %img.port_small.img_port{:alt => "Image", :src => "/images/jasmine.png"}/
       %h3 BMI Calculator
       %p= -data.projects[:bmi]
+  .text-center
+    .h4 Find all my projects and READMEs on my Github Page
+    %img.port_small.github{:alt => "Image", :src => "/images/github.png"}/
   -#.row.text-center
     .col-sm-3
       %img.port_small.img_port{:alt => "Image", :src => "/images/ruby.png"}/

@@ -4,9 +4,10 @@
   height: 250px;
 }
 .jumbo_portfolio {
-  background: url('../images/code.jpg');
+  background: url('../images/papers.jpg');
   background-size: cover;
   height: 250px;
+  margin-bottom: 0px;
 }
 
 .jumbo_about {
@@ -17,7 +18,7 @@
 }
 
 .center_text {
-  text-align:center;
+  text-align: center;
 }
 
 .header_index {
@@ -50,8 +51,17 @@
 }
 
 .columns {
-  height: 400px;
+  height: 350px;
   //border-style: ridge;
   //border-radius: 10px;
+}
 
+.github {
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+}
+
+.projects {
+  margin: inherit;
 }
