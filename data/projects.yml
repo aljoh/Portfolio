@@ -1,5 +1,3 @@
-- name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
-
-- name: FizzBuzz
-  description: My first Test driven ruby project
+  fizzbuzz: My first test driven ruby project
+  cooper: This project was made in Javascript and tested with Jasmine
+  bmi: This is a program that calculates a persons bmi

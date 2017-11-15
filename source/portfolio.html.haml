@@ -1,17 +1,22 @@
-.container.cont_portfolio
-  .jumbotron.jumbo_portfolio.header_index
-    %h1 Projects
+.container
+  .jumbotron.jumbo_portfolio
+  %h1.center_text Projects
   .row.text-center
-    .col-sm-4.first_work
-      %img.port_small.img-circle{:alt => "Image", :src => "/images/mountains.jpg"}/
-      %p Fizz
-      %button Fizzbuzz
-    .col-sm-4.second_work
-      %img.port_small.img-circle{:alt => "Image", :src => "/images/pecker.jpg"}/
-      %p BMI-Challenge
-    .col-sm-4.third_work
-      %img.port_small.img-circle{:alt => "Image", :src => "/images/work.jpg"}/
-      %p Cooper-Challenge
-  .fizzbuzz
-    %h1 Fizz Fizz
-    %p Lorem ipsum bacon bacon ham meat
+    .col-sm-4.columns
+      %h3 Fizzbuzz
+      %p= -data.projects[:fizzbuzz]
+    .col-sm-4.columns
+      %h3 Cooper Test
+      %p= -data.projects[:cooper]
+    .col-sm-4.columns
+      %h3 BMI Calculator
+      %p= -data.projects[:bmi]
+  .row.text-center
+    .col-sm-3
+      %img.port_small.img_port{:alt => "Image", :src => "/images/ruby.png"}/
+    .col-sm-3
+      %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
+    .col-sm-3
+      %img.port_small.img_port{:alt => "Image", :src => "/images/Javascript-shield.png"}/
+    .col-sm-3
+      %img.port_small.img_port{:alt => "Image", :src => "/images/jasmine.png"}/
