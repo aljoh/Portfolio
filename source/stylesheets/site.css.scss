@@ -1,4 +1,6 @@
-
+body {
+  margin-bottom: 60px;
+}
 
 .jumbo_index {
   background: url('../images/mountains2.jpg');
@@ -54,17 +56,6 @@
   border-radius: 10px;
 }
 
-
-.align_right {
-
-}
-
-.column_wide {
-
-  //border-style: ridge;
-  //border-radius: 10px;
-}
-
 .column_margin {
   margin-top: 80px;
 }
@@ -72,12 +63,11 @@
 .github {
   height: 50px;
   width: 50px;
-  margin-bottom: 60;
 }
 
 .logo {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .projects {
@@ -108,11 +98,15 @@ p {
 }
 
 .list_style {
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .larger_paragraph {
   font-size: 16px;
+}
+
+.about_paragraph {
+  font-size: 19px;
 }
 
 .nav_logo {
