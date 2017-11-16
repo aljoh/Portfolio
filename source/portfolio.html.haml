@@ -3,6 +3,11 @@
     %h1.center_text Projects
   .row.text-center.projects
     .col-sm-4.columns
+      %img.port_small.img_port{:alt => "Image", :src => "/images/Javascript-shield.png"}/
+      %img.port_small.img_port{:alt => "Image", :src => "/images/jasmine.png"}/
+      %h3 Cooper Test
+      %p= -data.projects[:cooper]
+    .col-sm-4.columns
       %img.port_small.img_port{:alt => "Image", :src => "/images/ruby.png"}/
       %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
       %h3 ATM-Machine
@@ -10,16 +15,11 @@
     .col-sm-4.columns
       %img.port_small.img_port{:alt => "Image", :src => "/images/Javascript-shield.png"}/
       %img.port_small.img_port{:alt => "Image", :src => "/images/jasmine.png"}/
-      %h3 Cooper Test
-      %p= -data.projects[:cooper]
-    .col-sm-4.columns
-      %img.port_small.img_port{:alt => "Image", :src => "/images/Javascript-shield.png"}/
-      %img.port_small.img_port{:alt => "Image", :src => "/images/jasmine.png"}/
       %h3 BMI Calculator
       %p= -data.projects[:bmi]
 .logo
   .h4 Find all my projects and READMEs on my Github Page
-  %a{:href => "https://github.com/aljoh"}
+  %a{:href => "https://github.com/aljoh", :target => "_blank"}
     %img.github{:alt => "Image", :src => "images/github.png"}/
 
   -#.row.text-center

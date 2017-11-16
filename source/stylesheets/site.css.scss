@@ -48,15 +48,30 @@
 }
 
 .index_large {
-  height: 400px;
-  width: 500px;
+  height: 450px;
+  width: 560px;
   border-radius: 10px;
 }
 
-.columns {
-  height: 350px;
+.img_wide {
+  height: 300px;
+  width: 560px;
+  border-radius: 10px;
+  margin-right: inherit;
+}
+
+.align_right {
+
+}
+
+.column_wide {
+  height: 220px;
   //border-style: ridge;
   //border-radius: 10px;
+}
+
+.column_margin {
+  margin-top: 80px;
 }
 
 .github {
@@ -86,5 +101,5 @@
 
 h3 {
   margin-top: 0px;
-  line-height: 1.3;
+  line-height: 1.2;
 }

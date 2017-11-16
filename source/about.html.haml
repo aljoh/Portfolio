@@ -3,7 +3,11 @@
     .header_index
       %h1 Who am I?
   .row
-    .col-sm-6.columns
+    .col-sm-6.columns.column_wide
       %img.index_large{:alt => "Image", :src => "/images/Affe CV bild.jpg"}/
-    .col-sm-6.columns
+    .col-sm-6.columns.column_wide
       %h3= -data.projects[:me]
+  .row
+    .col-sm-6.columns.column_margin
+    .col-sm-6.columns.align_right
+      %img.img_wide{:alt => "Image", :src => "/images/mountains.jpg", :align => "right"}/
