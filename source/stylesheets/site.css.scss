@@ -78,12 +78,12 @@
 .github {
   height: 50px;
   width: 50px;
-  margin-top: 5px;
+  margin-bottom: 60;
 }
 
 .logo {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .projects {
@@ -124,4 +124,14 @@ p {
 .nav_logo {
   height: 50px;
   width: 50px;
+}
+
+.footer_logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 30px;
+}
+
+.inline {
+  display: inline-block;
 }
