@@ -34,6 +34,7 @@
   height: 50px;
   width: 50px;
   margin-top: 50px;
+  text-align: center;
 }
 
 .alfred_image {
@@ -82,7 +83,7 @@
 
 .logo {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .projects {
@@ -106,4 +107,16 @@
 h3 {
   margin-top: 0px;
   line-height: 1.2;
+}
+
+p {
+  text-align: left;
+}
+
+.list_style {
+  font-size: 22px;
+}
+
+.larger_paragraph {
+  font-size: 16px;
 }
