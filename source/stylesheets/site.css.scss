@@ -3,27 +3,27 @@ body {
 }
 
 .jumbo_index {
-  background: url('../images/mountains2.jpg');
+  background: url("../images/mountains2.jpg");
   background-size: cover;
   height: 250px;
 }
 
 .jumbo_portfolio {
-  background: url('../images/papers.jpg');
+  background: url("../images/papers.jpg");
   background-size: cover;
   height: 250px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .jumbo_about {
-  background: url('../images/dude.jpg');
+  background: url("../images/dude.jpg");
   background-position: 0 -250px;
   background-size: cover;
   height: 250px;
 }
 
 .jumbo_cv {
-  background: url('../images/mountains.jpg');
+  background: url("../images/mountains.jpg");
   background-position: 0 -250px;
   background-size: cover;
   height: 250px;
@@ -91,7 +91,7 @@ body {
 }
 
 h3 {
-  margin-top: 0px;
+  margin-top: 0;
   line-height: 1.2;
 }
 
