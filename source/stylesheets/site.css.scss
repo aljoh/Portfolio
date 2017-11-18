@@ -22,6 +22,13 @@ body {
   height: 250px;
 }
 
+.jumbo_cv {
+  background: url('../images/mountains.jpg');
+  background-position: 0 -250px;
+  background-size: cover;
+  height: 250px;
+}
+
 .center_text {
   text-align: center;
 }
@@ -117,4 +124,8 @@ p {
 
 .inline {
   display: inline-block;
+}
+
+.margin_bottom {
+  margin-bottom: 30px;
 }

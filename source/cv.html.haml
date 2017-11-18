@@ -1,0 +1,21 @@
+.container
+  .jumbotron.jumbo_cv
+    .center_text
+      %h1 Curriculum Vitae
+  .container-fluid.bg-3
+  .row.text-center
+    .col-sm-4
+      %h3.margin_bottom Previous Work Experiences
+      -data.projects[:work].each do |job|
+        %h4= job[:job]
+        %p= job[:description]
+    .col-sm-4
+      %h3.margin_bottom Education
+      -data.projects[:education].each do |education|
+        %h4= education[:title]
+        %p= education[:description]
+    .col-sm-4
+      %h3.margin_bottom General Information
+      -data.projects[:information].each do |info|
+        %h4= info[:title]
+        %p.center_text= info[:description]
