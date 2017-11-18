@@ -7,6 +7,7 @@
       %img.index_large{:alt => "Image", :src => "/images/Affe CV bild.jpg"}/
     .col-sm-6.columns.column_wide
       %p.about_paragraph= -data.projects[:me]
+      %p.about_paragraph= -data.projects[:me_personal]
       %h2.center_text Skills
       %ul.list_style
         -data.projects[:skills].each do |skill|
