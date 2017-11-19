@@ -18,11 +18,10 @@ describe 'cv', type: :feature do
     expect(page).to have_selector 'p'
   end
 
-  it 'displays jumbotron' do
+  it 'displays jumbotron and jumbotron header' do
     expect(page).to have_css '.jumbotron'
-  end
-
-  it 'displays jumbotron header' do
-    expect(page).to have_content 'Curriculum Vitae'
+    within '.jumbotron' do
+      expect(page).to have_content 'Curriculum Vitae'
+    end
   end
 end
