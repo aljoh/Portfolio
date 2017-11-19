@@ -2,31 +2,32 @@ body {
   margin-bottom: 60px;
 }
 
-.jumbo_index {
-  background: url("../images/mountains2.jpg");
+@mixin jumbotron() {
   background-size: cover;
   height: 250px;
 }
 
+.jumbo_index {
+  background: url('../images/mountains2.jpg');
+  @include jumbotron();
+}
+
 .jumbo_portfolio {
   background: url("../images/papers.jpg");
-  background-size: cover;
-  height: 250px;
+  @include jumbotron();
   margin-bottom: 0;
 }
 
 .jumbo_about {
   background: url("../images/dude.jpg");
   background-position: 0 -250px;
-  background-size: cover;
-  height: 250px;
+  @include jumbotron();
 }
 
 .jumbo_cv {
   background: url("../images/mountains.jpg");
   background-position: 0 -250px;
-  background-size: cover;
-  height: 250px;
+  @include jumbotron();
 }
 
 .center_text {
@@ -76,10 +77,6 @@ body {
   margin: inherit;
 }
 
-.h3_smaller {
-  font-size: 22px;
-}
-
 .footer {
   position: fixed;
   right: 0;
@@ -88,11 +85,6 @@ body {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
-}
-
-h3 {
-  margin-top: 0;
-  line-height: 1.2;
 }
 
 p {
