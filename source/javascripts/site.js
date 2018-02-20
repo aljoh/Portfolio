@@ -1,3 +1,3 @@
-$('button').click(function(){
-  $('.fizzbuzz').toggle(500);
+$(document).ready(function(){
+  $('body').fadeIn(500);
 });
