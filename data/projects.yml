@@ -4,7 +4,6 @@
   me: My name is Alfred and I'm a junior fullstack developer residing in Gothenburg, Sweden. In October 2017 I attended the Craft Acadamy bootcamp to start my journey writing code, working with Ruby, Javascript and much more. Before I started coding, I worked as a hardware technician and have useful skills configuring PCs aswell.
   me_personal: Outside work, I'm a lover of food, powerlifting and videogames. I also have a big passion for adventure and nature, with lots of skiing and traveling on my belt.
   skills:
-    - Frontend, Html, Css and Javascipt
-    - Backend, Ruby
+    - Ruby on Rails, Html, Css, Ruby, Javascript
     - TDD, testing Ruby with Rspec and Javascript with Jasmine
     - Hardware, confident working with components and installation

@@ -4,13 +4,13 @@
       %h1 Hello
       %h3 I'm Alfred and I am a developer
   .container-fluid.bg-3
-  .row.text-center
-    .col-sm-4
-      %h2 Skills
-      -# %img.index_small{:alt => "Image", :src => "/images/code.jpg"}/
-    .col-sm-4
-      %h2 Test Driven
-      -# %img.index_small{:alt => "Image", :src => "/images/pecker.jpg"}/
-    .col-sm-4
-      %h2 Agile Mindset
-      -# %img.index_small{:alt => "Image", :src => "/images/work.jpg"}/
+  .row
+    .col-sm-6.columns.column_wide
+      %img.index_large{:alt => "Image", :src => "/images/Affe CV bild.jpg"}/
+    .col-sm-6.columns.column_wide
+      %p.about_paragraph= -data.projects[:me]
+      %p.about_paragraph= -data.projects[:me_personal]
+      %h2.center_text Skills
+      %ul.list_style
+        -data.projects[:skills].each do |skill|
+          %li= skill
