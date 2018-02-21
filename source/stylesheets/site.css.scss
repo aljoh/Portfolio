@@ -16,7 +16,6 @@ body {
 .jumbo_portfolio {
   background: url("../images/papers.jpg");
   @include jumbotron();
-  margin-bottom: 0;
 }
 
 .jumbo_about {
