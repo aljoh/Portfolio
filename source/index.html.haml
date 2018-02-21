@@ -12,7 +12,8 @@
       %p.about_paragraph= -data.projects[:me_2]
       %p.about_paragraph= -data.projects[:me_3]
     .col-sm-3.columns.column_wide
-      %h2.center_text Skills
-      %ul.list_style
-        -data.projects[:skills].each do |skill|
-          %li= skill  
+      .card
+        %h2.center_text Skills
+        %ul.list_style
+          -data.projects[:skills].each do |skill|
+            %li= skill  

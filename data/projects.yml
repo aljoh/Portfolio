@@ -1,16 +1,16 @@
   atm: A program used in the terminal. It has three different classes, an atm class, an account class and a person class. With those, you can create an atm, an account and a person which all work together if you want to withdraw money, deposit money, check account status, check funds etc. Written in Ruby and tested with Rspec.
   cooper: This program calculates and gives you an assessment for the cooper test. The cooper test is a performance test, where you run as far as you can in 12 minutes, and get an assessment based on your age, gender and distance run. My program takes those three factors into calculation, and returns an assessment saying "Excellent", "Above Average", "Average", "Below Average" or "Poor". Written in Javascript and tested with Jasmine. Jquery and Bootstrap used for styling and functionality.
   bmi: This was my first project using Jasmine for TDD, Test Driven Development. The program lets you calculate your BMI, or Body Mass Index, using your height and weight as parameters. The program lets you choose between calculating with the metric and imperial system, and performs an accurate calculation based on your choice. With the help of i18n I have added a language switch aswell, letting you choose seeing the application in english or swedish. Written in Javascript and tested with Jasmine, Bootstrap and Jquery for styling.
-  me: Until fairly recently, i spent most of my evenings trying to teach myself programming, mostly using Python. This eventually lead to a bootcamp at Craft Academy in Gothenburg, where i had the opportunity to learn an incredible amount. The focus has been on producing reliable products using agile methods and TDD, leaning strongly towards web development.
-  me_2: I am mostly familiar with Ruby (Ruby on Rails) and Javascript (Typescript, Angular) but i am currently teaching myself .NET development using C#.
-  me_3: From my time at Code Academy, i consider my biggest takeaway the fact that i've really discovered a passion for programming and the realization that i have a lifelong quest of continuous learning ahead of me. Check out my Github to see what i've been up to so far.
+  me: Until fairly recently, I spent most of my evenings trying to teach myself programming, mostly using Python. This eventually lead to a bootcamp at Craft Academy in Gothenburg, where I had the opportunity to learn an incredible amount. The focus has been on producing reliable products using agile methods and TDD, leaning strongly towards web development.
+  me_2: I am mostly familiar with Ruby (Ruby on Rails) and Javascript (Typescript, Angular) but I am currently teaching myself .NET development using C#.
+  me_3: From my time at Craft Academy, I consider my biggest takeaway the fact that I've really discovered a passion for programming and the realization that i have a lifelong quest of continuous learning ahead of me. Check out my Github to see what I've been up to so far.
   me_personal: Outside work, I'm a lover of food, powerlifting and videogames. I also have a big passion for adventure and nature, with lots of skiing and traveling on my belt.
   skills:
     - HTML, CSS and Javascript/Typescript
     - Ruby on Rails
     - Angular
     - Ionic
-    - jquery
+    - jQuery
     - Bootstrap
-    - TDD, testing with Rspec, Jasmine and Cucumber
+    - TDD, using Rspec, Jasmine and Cucumber
     - Agile processes
