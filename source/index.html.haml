@@ -5,13 +5,14 @@
       %h3 I'm Alfred and I am a developer
   .container-fluid.bg-3
   .row
-    .col-sm-6.columns.column_wide
+    .col-sm-4.columns.column_wide
       %img.index_large{:alt => "Image", :src => "/images/Affe CV bild.jpg"}/
-    .col-sm-6.columns.column_wide
+    .col-sm-5.columns.column_wide
       %p.about_paragraph= -data.projects[:me]
       %p.about_paragraph= -data.projects[:me_2]
       %p.about_paragraph= -data.projects[:me_3]
+    .col-sm-3.columns.column_wide
       %h2.center_text Skills
       %ul.list_style
         -data.projects[:skills].each do |skill|
-          %li= skill
+          %li= skill  
