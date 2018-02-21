@@ -3,23 +3,29 @@
     %h1.center_text Projects
   .row.text-center.projects.larger_paragraph
     .col-sm-4.columns
-      %img.port_small.img_port{:alt => "Image", :src => "/images/ionic.png"}/
-      %img.port_small.img_port{:alt => "Image", :src => "/images/rails.png"}/
-      %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
-      %h3 Gather Your Thoughts
-      %p= -data.projects[:cooper]
+      .card
+        %img.port_small.img_port{:alt => "Image", :src => "/images/ionic.png"}/
+        %img.port_small.img_port{:alt => "Image", :src => "/images/rails.png"}/
+        %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
+        %h3 Gather Your Thoughts
+        %p= -data.projects[:gather]
+        %a{:href=> "https://github.com/CraftAcademy/gather-your-thoughts-frontend", :target => "_blank"} Front end Repo
+        %br
+        %a{:href=> "https://github.com/CraftAcademy/gather-your-thoughts-backend", :target => "_blank"} Back end Repo
     .col-sm-4.columns
-      %img.port_small.img_port{:alt => "Image", :src => "/images/rails.png"}/
-      %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
-      %img.port_small.img_port{:alt => "Image", :src => "/images/cucumber.png"}/
-      %h3 Slowfood
-      %p= -data.projects[:atm]
+      .card
+        %img.port_small.img_port{:alt => "Image", :src => "/images/rails.png"}/
+        %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
+        %img.port_small.img_port{:alt => "Image", :src => "/images/cucumber.png"}/
+        %h3 Slowfood
+        %p= -data.projects[:slowfood]
     .col-sm-4.columns
-      %img.port_small.img_port{:alt => "Image", :src => "/images/rails.png"}/
-      %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
-      %img.port_small.img_port{:alt => "Image", :src => "/images/cucumber.png"}/
-      %h3 iStory
-      %p= -data.projects[:bmi]
+      .card
+        %img.port_small.img_port{:alt => "Image", :src => "/images/rails.png"}/
+        %img.port_small.img_port{:alt => "Image", :src => "/images/rspec.png"}/
+        %img.port_small.img_port{:alt => "Image", :src => "/images/cucumber.png"}/
+        %h3 iStory
+        %p= -data.projects[:istory]
 .logo
   .h4 Find all my projects and READMEs on my Github Page
   %a{:href => "https://github.com/aljoh", :target => "_blank"}
